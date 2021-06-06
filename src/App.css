@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 400vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,268 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.head{
+  background-image: linear-gradient(to bottom right,violet,blue);
+  height: 600px;
+  width: 1200px;
+  text-align: center;
+  /* margin-top: -480vh; */
+}
+
+.title{
+  margin-top: 20px;
+  font-weight: 800;
+  font-size: 60px;
+}
+
+.desc{
+  color: white;
+  padding: 2% 2% 2% 2%;
+  border: 2px solid white;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.nav{
+  border: 2px solid transparent;
+  background: rgba(0,0,0,0.25);
+  width: 1060px;
+  height: 80px;
+  margin-left: 4%;
+  padding-top: 2%;
+  padding-left: 4%;
+}
+
+.nav-btn{
+  height: 50px;
+  width: 150px;
+  margin-left: 4%;
+  float: left;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+  background: transparent;
+}
+
+.nav-btn:hover{
+  background-color: black;
+}
+
+.about{
+  background: rgba(0,0,0,0.25);
+  margin-top: 50px;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 4%;
+  width: 1000px;
+  height: 360px;
+}
+
+.profile{
+  border: 2px solid white;
+  float: left;
+  background: url("components/About/Images/ASHIK.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: pink; */
+  height: 160px;
+  width: 160px;
+  border-radius: 100%;
+  margin-top: 2%;
+  margin-left: 6%;
+}
+
+.details{
+  border: 2px solid white;
+  margin-right: 6%;
+  margin-left: 25%;
+  margin-top: 5.5%;
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 2% 2% 2% 2%;
+}
+
+.resume{
+  border: 2px solid transparent;
+  margin-top: 5%;
+  background-image: linear-gradient(to bottom right,rgba(0,0,0,0.25),white);
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+  height: 840px;
+  width: 1100px;
+}
+
+.data{
+  border: 2px solid transparent;
+  margin-left: 30%;
+  margin-top: 2%;
+  text-align: left;
+  padding-left: 2%;
+  padding-right: 5%;
+}
+
+.institute{
+  color: violet;
+  font-weight: 600;
+  font-style: italic;
+  /* margin-top: -2%; */
+  font-size: 28px;
+  margin-bottom: -4%;
+
+}
+
+.resume-pic1{
+  border: 2px solid transparent;
+  height: 200px;
+  width: 240px;
+  margin-top: 2%;
+  margin-left: 4%;
+  background-image: url("components/About/Images/college.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+}
+
+.resume-pic2{
+  border: 2px solid transparent;
+  height: 200px;
+  background-image: url("components/About/Images/school.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 240px;
+  margin-top: 2%;
+  margin-left: 4%;
+  float: left;
+}
+
+.skill{
+  border: 2px solid transparent;
+  margin-left: 4%;
+  margin-top: 5%;
+  height: 100px;
+  width: 1000px;
+}
+
+.skillset{
+  height: 60px;
+  width: 180px;
+  float: left;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 2%;
+  background-image: linear-gradient(to bottom right,violet,blue);
+  border: 2px solid transparent;
+  margin-top: 2%;
+}
+
+.institute1{
+  color: violet;
+  font-weight: 800;
+  font-style: bold;
+  font-size: 28px;
+  margin-bottom: -4%;
+  margin-left: -800px;
+}
+
+.contacts{
+  background: rgba(0,0,0,0.25);
+  height: 200px;
+  width: 1100px;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+}
+
+.icon{
+  margin-top: 2%;
+  margin-left: 12%;
+  font-size: 50px;
+  float: left;
+}
+
+.icon:hover{
+  color: blueviolet;
+}
+
+.id{
+  font-size: 12px;
+}
+
+.works{
+  height: 620px;
+  width: 1100px;
+  border: 2px solid transparent;
+  background: linear-gradient(to bottom left,white,rgba(0,0,0,0.25));
+}
+
+.projects{
+  border: 2px solid transparent;
+  height: 400px;
+  width: 340px;
+  margin-left: 1.6%;
+  float: left;
+}
+
+.logopic1{
+   border: 2px solid transparent;
+   height: 200px;
+   background-image: url("components/Works/WorkImages/include.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-left: 10%;
+   margin-top: 2%;
+   width: 280px;
+}
+
+.logopic2{
+  border: 2px solid transparent;
+  height: 200px;
+  background-image: url("components/Works/WorkImages/compilecompanion.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+  margin-left: 10%;
+  margin-top: 2%;
+  width: 280px;
+}
+
+.logopic3{
+  border: 2px solid transparent;
+  height: 200px;
+  margin-left: 10%;
+  background-image: url("components/Works/WorkImages/compileanywhere.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2%;
+  width: 280px;
+}
+
+.content{
+  border-bottom: 2px solid white;
+  border-right: 4px solid white;
+  border-bottom-right-radius: 20px;
+  margin: 2% 2% 2% 2%;
+  height: 180px;
+  width: 320px;
+  font-size: 15px;
+  padding: 2% 2% 2% 2%;
+  text-align: left;
+  font-weight: 600;
+}
+
+.tag{
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 5%;
+  border: 2px solid transparent;
 }

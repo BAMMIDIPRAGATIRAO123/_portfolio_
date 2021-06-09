@@ -9,9 +9,9 @@ function Resume() {
                 <h5 className="institute">Sri Sairam College of Engineering Bangalore</h5>
                 <h6><i>Computer Science Engineering (2023)</i></h6>
                 <h6>HAB59 2020 National level hackathon 2nd position winner with app #INCLUDE and team sudo-s.</h6>
+                <h6>Innovathon 2K21 Hackathon by SSCE 2nd position with Team-Zee and project G-Quiz.</h6>
                 <hr></hr>
             </div>
-            <br></br>
             <div className="resume-pic2"></div>
             <div className="data">
                 <h5 className="institute">St.Francis Pre Unniversity College Bangalore</h5>

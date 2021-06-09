@@ -10,47 +10,27 @@ function Head() {
     return (
         <div className="head">
             <div className="nav">
-                    {/* <Link to={"/Head"}> */}
+                <Router>
+                <Link to={"/Head"}>
                     <button className="nav-btn" >Home</button>
-                {/* </Link> */}
-                
-                {/* <Link to={"/About"}> */}
-                    <button className="nav-btn">About</button>
-                {/* </Link> */}
-                
-                {/* <Link to={"/Resume"}> */}
-                    <button className="nav-btn" >Resume</button>
-                {/* </Link> */}
-                
-                {/* <Link to={"/Works"}> */}
-                    <button className="nav-btn">Works</button>
-                {/* </Link> */}
-                
-                {/* <Link to={"/Contact"}> */}
-                    <button className="nav-btn" >Contact</button>
-                {/* </Link> */}
-                {/* <Router>
-                    <Link to={"/Head"}>
-                    <button className="nav-btn" onClick={<Head/>}>Home</button>
                 </Link>
                 
                 <Link to={"/About"}>
-                    <button className="nav-btn" onClick={<About/>}>About</button>
+                    <button className="nav-btn">About</button>
                 </Link>
                 
                 <Link to={"/Resume"}>
-                    <button className="nav-btn" onClick={<Resume/>}>Resume</button>
+                    <button className="nav-btn" >Resume</button>
                 </Link>
                 
                 <Link to={"/Works"}>
-                    <button className="nav-btn" onClick={<Works/>}>Works</button>
+                    <button className="nav-btn">Works</button>
                 </Link>
                 
                 <Link to={"/Contact"}>
-                    <button className="nav-btn" onClick={<Contact/>}>Contact</button>
+                    <button className="nav-btn" >Contact</button>
                 </Link>
-                
-                </Router> */}
+                </Router>
                 
             </div>
             <h2 className="title">HAJA ASHIK S</h2>
